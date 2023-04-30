@@ -1,0 +1,23 @@
+{
+  "name": "housing-backend",
+  "version": "1.0.0",
+  "description": "backend for housing solution",
+  "main": "src/index.js",
+  "type": "module",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.12.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
